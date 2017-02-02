@@ -1,0 +1,135 @@
+/*
+rgb(255,247,230)
+rgb(147,132,103)
+rgb(223,208,179)
+rgb(88,113,147)
+rgb(179,197,223)
+rgb(49,63,82)
+
+font-family: 'VT323', monospace;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgb(255,247,230);
+  color: rgb(49,63,82);
+}
+
+header{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.7em;
+}
+h1{
+  margin-top: 0;
+}
+.head{
+  font-family: 'Pacifico', cursive;
+}
+p{
+  font-family: 'Pacifico', cursive;
+  text-indent: 300px;
+  font-size: 1.3em;
+}
+article{
+  background-color: rgb(199,217,243);
+  margin-top: 50px;
+  padding: 50px;
+  padding-right: 70px;
+  /*padding-bottom: 50px;*/
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(49,63,82);
+  width: 60%;
+  position: relative;
+  left: 14%;
+
+}
+
+.button{
+  /*position: relative;
+  margin-left: 50%;*/
+  background-color: rgba(0,0,0,0);
+  text-decoration: none;
+  border: none;
+  color: rgb(49,63,82);
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.7em;
+  /*width: 150%;*/
+}
+
+button:hover{
+  background-color: rgb(88,113,147);
+  color: rgb(223,208,179);
+}
+
+
+nav{
+/*position: fixed;*/
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: stretch;
+margin-bottom: 0;
+
+}
+
+
+.deco1 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 14%;
+  height: 1000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(27deg, rgb(147,132,103) 23%, rgba(0,0,0,0) 23%), -webkit-linear-gradient(27deg, rgba(0,0,0,0) 74%, rgb(147,132,103) 78%), -webkit-linear-gradient(27deg, rgba(0,0,0,0) 34%, rgb(147,132,103) 38%, rgb(147,132,103) 58%, rgba(0,0,0,0) 62%), rgba(0, 0, 0, 0.298039);
+  background: -moz-linear-gradient(63deg, rgb(147,132,103) 23%, rgba(0,0,0,0) 23%), -moz-linear-gradient(63deg, rgba(0,0,0,0) 74%, rgb(147,132,103) 78%), -moz-linear-gradient(63deg, rgba(0,0,0,0) 34%, rgb(147,132,103) 38%, rgb(147,132,103) 58%, rgba(0,0,0,0) 62%), rgba(0, 0, 0, 0.298039);
+  background: linear-gradient(63deg, rgb(147,132,103) 23%, rgba(0,0,0,0) 23%), linear-gradient(63deg, rgba(0,0,0,0) 74%, rgb(147,132,103) 78%), linear-gradient(63deg, rgba(0,0,0,0) 34%, rgb(147,132,103) 38%, rgb(147,132,103) 58%, rgba(0,0,0,0) 62%), rgba(0, 0, 0, 0.298039);
+  background-position: 7px 0, 0 0, 0 0;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 16px 48px;
+  background-size: 16px 48px;
+}
+
+.deco2 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 14%;
+  height: 1000px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(27deg, rgb(147,132,103) 23%, rgba(0,0,0,0) 23%), -webkit-linear-gradient(27deg, rgba(0,0,0,0) 74%, rgb(147,132,103) 78%), -webkit-linear-gradient(27deg, rgba(0,0,0,0) 34%, rgb(147,132,103) 38%, rgb(147,132,103) 58%, rgba(0,0,0,0) 62%), rgba(0, 0, 0, 0.298039);
+  background: -moz-linear-gradient(63deg, rgb(147,132,103) 23%, rgba(0,0,0,0) 23%), -moz-linear-gradient(63deg, rgba(0,0,0,0) 74%, rgb(147,132,103) 78%), -moz-linear-gradient(63deg, rgba(0,0,0,0) 34%, rgb(147,132,103) 38%, rgb(147,132,103) 58%, rgba(0,0,0,0) 62%), rgba(0, 0, 0, 0.298039);
+  background: linear-gradient(63deg, rgb(147,132,103) 23%, rgba(0,0,0,0) 23%), linear-gradient(63deg, rgba(0,0,0,0) 74%, rgb(147,132,103) 78%), linear-gradient(63deg, rgba(0,0,0,0) 34%, rgb(147,132,103) 38%, rgb(147,132,103) 58%, rgba(0,0,0,0) 62%), rgba(0, 0, 0, 0.298039);
+  background-position: 7px 0, 0 0, 0 0;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 16px 48px;
+  background-size: 16px 48px;
+}
