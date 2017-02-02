@@ -1,6 +1,42 @@
+/*
+rgb(60,60,62)
+rgb(244,240,230)
+rgb(190,155,113)
+rgb(167,103,65)
+rgb(166,72,63)
+
+font-family: 'VT323', monospace;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+
+
 img{
-  width: 200px;
+  width: 300px;
 }
+/*img:hover{
+  background-color: rgb(244,240,230);
+  border-radius: 30px;
+}*/
+
+.imggh:hover{
+  background-color: rgb(244,210,200);
+  border-radius: 30px;
+}
+.imgg:hover{
+  background-color: rgb(224,250,210);
+  border-radius: 30px;
+}
+.imgb:hover{
+  background-color: rgb(224,220,240);
+  border-radius: 30px;
+}
+
+
 a{
   text-decoration: none;
   color: black;
@@ -9,12 +45,14 @@ body{
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
+  background-color: rgb(60,60,62);
+  color: rgb(60,60,62);
 }
 
 main{
   position: fixed;
-  width: 70%;
-  left: 15%;
+  width: 80%;
+  left: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,17 +62,52 @@ main{
 }
 article{
   width: 25%;
-  background-color: lightblue;
-  padding-top: 200px;
+  background-color: rgb(190,155,113);
+  padding-top: 250px;
   height: 1000px;
+
 }
 
 header{
-  height: 130px;
-  padding-top: 60px;
-  background-color: blue;
+  height: 180px;
+  padding-top: 30px;
+  background-color: rgb(167,103,65);
   width: 100%;
   position: fixed;
   left: 0;
+  top: 0;
   z-index: 5;
+  color: rgb(60,60,62);
+}
+
+h1{
+  font-size: 3.5em;
+  font-family: 'Pacifico', cursive;
+}
+
+.Github{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+}
+.headgithub{
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+/*------------------------*/
+.Git{
+  font-family: 'VT323', monospace;
+  font-size: 1.6em;
+}
+.headgit{
+  font-family: 'VT323', monospace;
+  font-size: 2em;
+}
+/*------------------------*/
+.Bash{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+.headbash{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
 }
