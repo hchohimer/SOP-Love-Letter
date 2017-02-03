@@ -69,6 +69,10 @@ button:hover{
   background-color: rgb(88,113,147);
   color: rgb(223,208,179);
 }
+.landed{
+  background-color: rgb(88,113,147);
+  color: rgb(223,208,179);
+}
 
 
 nav{
