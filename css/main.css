@@ -89,25 +89,86 @@ h1{
   font-family: 'Pacifico', cursive;
   font-size: 1.5em;
 }
-.headgithub{
+/*.headgithub{
   font-family: 'Amatic SC', cursive;
   font-size: 2em;
-}
+}*/
 /*------------------------*/
 .Git{
   font-family: 'VT323', monospace;
   font-size: 1.6em;
 }
-.headgit{
+/*.headgit{
   font-family: 'VT323', monospace;
   font-size: 2em;
-}
+}*/
 /*------------------------*/
 .Bash{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
-.headbash{
+/*.headbash{
   font-family: 'Quicksand', sans-serif;
   font-size: 2em;
+}*/
+
+@media screen and (max-width: 1580px) {
+
+  img{
+    width: 200px;
+  }
+
+}
+@media screen and (max-width: 1100px) {
+
+  img{
+    width: 150px;
+    }
+  .Git{
+    font-size: 1.3em;
+  }
+  .Github{
+    font-size: 1em;
+  }
+  .Bash{
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 750px) {
+  header{
+    height: 140px;
+    padding-top: 0;
+  }
+  h1{
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+  }
+  main{
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    position: absolute;
+    flex-direction: column;
+  }
+  article{
+    width: 100%;
+    background-color: rgb(190,155,113);
+    padding-top: 200px;
+    height: 500px;
+
+  }
+  img{
+    width: 300px;
+    }
+  .Git{
+    font-size: 1.4em;
+  }
+  .Github{
+    font-size: 1.2em;
+  }
+  .Bash{
+    font-size: 1.2em;
+  }
 }
